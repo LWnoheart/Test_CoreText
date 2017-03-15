@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface TextSimpleView : UIView
+#import "TextViewProperty.h"
+@interface TextSimpleView : UIView<TextViewProperty>
 
 @end

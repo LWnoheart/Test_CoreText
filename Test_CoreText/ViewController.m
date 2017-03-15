@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "TextSimpleView.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    TextSimpleView *view = [[TextSimpleView alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
+    view.text = [[NSAttributedString alloc] initWithString:@"明月几时有？把酒问青天。不知天上宫阙、今夕是何年？" attributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
+    [self.view addSubview:view];
 }
 
 
