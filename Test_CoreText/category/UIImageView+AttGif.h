@@ -21,7 +21,7 @@
 @end
 
 
-@interface UIImage (AttGif)
+@interface UIImageView (AttGif)
 
 
 /**

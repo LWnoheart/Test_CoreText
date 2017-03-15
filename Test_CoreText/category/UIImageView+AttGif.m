@@ -6,7 +6,7 @@
 //  Copyright © 2017年 李巍. All rights reserved.
 //
 
-#import "UIImage+AttGif.h"
+#import "UIImageView+AttGif.h"
 
 @import ImageIO;
 @implementation NSString (imageType)
@@ -34,7 +34,7 @@
 }
 
 @end
-@implementation UIImage (AttGif)
+@implementation UIImageView (AttGif)
 
 
 

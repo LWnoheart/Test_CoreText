@@ -16,9 +16,17 @@
 		194E7EAD1E768AE40091F2CC /* Test_CoreTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 194E7EAC1E768AE40091F2CC /* Test_CoreTextTests.m */; };
 		194E7EB81E768AE40091F2CC /* Test_CoreTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 194E7EB71E768AE40091F2CC /* Test_CoreTextUITests.m */; };
 		194E7EC71E7691660091F2CC /* TextSimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 194E7EC61E7691660091F2CC /* TextSimpleView.m */; };
-		199D10A31E778C31001FA9D7 /* NSMutableAttributedString+ExpressionImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 199D10A21E778C31001FA9D7 /* NSMutableAttributedString+ExpressionImage.m */; };
 		199D10A71E778E2E001FA9D7 /* LWAttributedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 199D10A61E778E2E001FA9D7 /* LWAttributedImage.m */; };
-		199D10AB1E779A5A001FA9D7 /* UIImage+AttGif.m in Sources */ = {isa = PBXBuildFile; fileRef = 199D10AA1E779A5A001FA9D7 /* UIImage+AttGif.m */; };
+		199D10AB1E779A5A001FA9D7 /* UIImageView+AttGif.m in Sources */ = {isa = PBXBuildFile; fileRef = 199D10AA1E779A5A001FA9D7 /* UIImageView+AttGif.m */; };
+		19D670FF1E79248300945EF8 /* TextExpressionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D670FE1E79248300945EF8 /* TextExpressionView.m */; };
+		19D671021E792AB800945EF8 /* NSMutableAttributedString+FrameRef.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D671011E792AB800945EF8 /* NSMutableAttributedString+FrameRef.m */; };
+		19D671051E794F6600945EF8 /* UIView+frameAdjust.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D671041E794F6600945EF8 /* UIView+frameAdjust.m */; };
+		19D6710B1E796F8C00945EF8 /* cahan.gif in Resources */ = {isa = PBXBuildFile; fileRef = 19D671071E796F8C00945EF8 /* cahan.gif */; };
+		19D6710C1E796F8C00945EF8 /* haha.gif in Resources */ = {isa = PBXBuildFile; fileRef = 19D671081E796F8C00945EF8 /* haha.gif */; };
+		19D6710D1E796F8C00945EF8 /* haha@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19D671091E796F8C00945EF8 /* haha@2x.png */; };
+		19D6710E1E796F8C00945EF8 /* haqian.gif in Resources */ = {isa = PBXBuildFile; fileRef = 19D6710A1E796F8C00945EF8 /* haqian.gif */; };
+		19D671111E79716300945EF8 /* NSMutableAttributedString+ExpressionImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D6710F1E79716300945EF8 /* NSMutableAttributedString+ExpressionImage.m */; };
+		19D671141E7971A200945EF8 /* NSMutableAttributedString+Hyperlink.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D671131E7971A200945EF8 /* NSMutableAttributedString+Hyperlink.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,12 +66,24 @@
 		194E7EC51E7691660091F2CC /* TextSimpleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextSimpleView.h; sourceTree = "<group>"; };
 		194E7EC61E7691660091F2CC /* TextSimpleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextSimpleView.m; sourceTree = "<group>"; };
 		194E7EC91E76AA230091F2CC /* TextViewProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewProperty.h; sourceTree = "<group>"; };
-		199D10A11E778C31001FA9D7 /* NSMutableAttributedString+ExpressionImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+ExpressionImage.h"; sourceTree = "<group>"; };
-		199D10A21E778C31001FA9D7 /* NSMutableAttributedString+ExpressionImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+ExpressionImage.m"; sourceTree = "<group>"; };
 		199D10A51E778E2E001FA9D7 /* LWAttributedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAttributedImage.h; sourceTree = "<group>"; };
 		199D10A61E778E2E001FA9D7 /* LWAttributedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAttributedImage.m; sourceTree = "<group>"; };
-		199D10A91E779A5A001FA9D7 /* UIImage+AttGif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AttGif.h"; sourceTree = "<group>"; };
-		199D10AA1E779A5A001FA9D7 /* UIImage+AttGif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AttGif.m"; sourceTree = "<group>"; };
+		199D10A91E779A5A001FA9D7 /* UIImageView+AttGif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AttGif.h"; sourceTree = "<group>"; };
+		199D10AA1E779A5A001FA9D7 /* UIImageView+AttGif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AttGif.m"; sourceTree = "<group>"; };
+		19D670FD1E79248300945EF8 /* TextExpressionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextExpressionView.h; sourceTree = "<group>"; };
+		19D670FE1E79248300945EF8 /* TextExpressionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextExpressionView.m; sourceTree = "<group>"; };
+		19D671001E792AB800945EF8 /* NSMutableAttributedString+FrameRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+FrameRef.h"; sourceTree = "<group>"; };
+		19D671011E792AB800945EF8 /* NSMutableAttributedString+FrameRef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+FrameRef.m"; sourceTree = "<group>"; };
+		19D671031E794F6600945EF8 /* UIView+frameAdjust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frameAdjust.h"; sourceTree = "<group>"; };
+		19D671041E794F6600945EF8 /* UIView+frameAdjust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frameAdjust.m"; sourceTree = "<group>"; };
+		19D671071E796F8C00945EF8 /* cahan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cahan.gif; sourceTree = "<group>"; };
+		19D671081E796F8C00945EF8 /* haha.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = haha.gif; sourceTree = "<group>"; };
+		19D671091E796F8C00945EF8 /* haha@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "haha@2x.png"; sourceTree = "<group>"; };
+		19D6710A1E796F8C00945EF8 /* haqian.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = haqian.gif; sourceTree = "<group>"; };
+		19D6710F1E79716300945EF8 /* NSMutableAttributedString+ExpressionImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+ExpressionImage.m"; sourceTree = "<group>"; };
+		19D671101E79716300945EF8 /* NSMutableAttributedString+ExpressionImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+ExpressionImage.h"; sourceTree = "<group>"; };
+		19D671121E7971A200945EF8 /* NSMutableAttributedString+Hyperlink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Hyperlink.h"; sourceTree = "<group>"; };
+		19D671131E7971A200945EF8 /* NSMutableAttributedString+Hyperlink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Hyperlink.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +134,7 @@
 		194E7E911E768AE40091F2CC /* Test_CoreText */ = {
 			isa = PBXGroup;
 			children = (
+				19D671061E796F8C00945EF8 /* ExpressionImage */,
 				199D10A81E779A3C001FA9D7 /* category */,
 				199D10A41E778E09001FA9D7 /* model */,
 				194E7E951E768AE40091F2CC /* AppDelegate.h */,
@@ -128,8 +149,8 @@
 				194E7EC51E7691660091F2CC /* TextSimpleView.h */,
 				194E7EC61E7691660091F2CC /* TextSimpleView.m */,
 				194E7EC91E76AA230091F2CC /* TextViewProperty.h */,
-				199D10A11E778C31001FA9D7 /* NSMutableAttributedString+ExpressionImage.h */,
-				199D10A21E778C31001FA9D7 /* NSMutableAttributedString+ExpressionImage.m */,
+				19D670FD1E79248300945EF8 /* TextExpressionView.h */,
+				19D670FE1E79248300945EF8 /* TextExpressionView.m */,
 			);
 			path = Test_CoreText;
 			sourceTree = "<group>";
@@ -172,10 +193,29 @@
 		199D10A81E779A3C001FA9D7 /* category */ = {
 			isa = PBXGroup;
 			children = (
-				199D10A91E779A5A001FA9D7 /* UIImage+AttGif.h */,
-				199D10AA1E779A5A001FA9D7 /* UIImage+AttGif.m */,
+				19D671101E79716300945EF8 /* NSMutableAttributedString+ExpressionImage.h */,
+				19D6710F1E79716300945EF8 /* NSMutableAttributedString+ExpressionImage.m */,
+				199D10A91E779A5A001FA9D7 /* UIImageView+AttGif.h */,
+				199D10AA1E779A5A001FA9D7 /* UIImageView+AttGif.m */,
+				19D671001E792AB800945EF8 /* NSMutableAttributedString+FrameRef.h */,
+				19D671011E792AB800945EF8 /* NSMutableAttributedString+FrameRef.m */,
+				19D671031E794F6600945EF8 /* UIView+frameAdjust.h */,
+				19D671041E794F6600945EF8 /* UIView+frameAdjust.m */,
+				19D671121E7971A200945EF8 /* NSMutableAttributedString+Hyperlink.h */,
+				19D671131E7971A200945EF8 /* NSMutableAttributedString+Hyperlink.m */,
 			);
 			path = category;
+			sourceTree = "<group>";
+		};
+		19D671061E796F8C00945EF8 /* ExpressionImage */ = {
+			isa = PBXGroup;
+			children = (
+				19D671071E796F8C00945EF8 /* cahan.gif */,
+				19D671081E796F8C00945EF8 /* haha.gif */,
+				19D671091E796F8C00945EF8 /* haha@2x.png */,
+				19D6710A1E796F8C00945EF8 /* haqian.gif */,
+			);
+			path = ExpressionImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +324,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19D6710E1E796F8C00945EF8 /* haqian.gif in Resources */,
+				19D6710B1E796F8C00945EF8 /* cahan.gif in Resources */,
 				194E7EA21E768AE40091F2CC /* LaunchScreen.storyboard in Resources */,
+				19D6710D1E796F8C00945EF8 /* haha@2x.png in Resources */,
+				19D6710C1E796F8C00945EF8 /* haha.gif in Resources */,
 				194E7E9F1E768AE40091F2CC /* Assets.xcassets in Resources */,
 				194E7E9D1E768AE40091F2CC /* Main.storyboard in Resources */,
 			);
@@ -312,12 +356,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				199D10A71E778E2E001FA9D7 /* LWAttributedImage.m in Sources */,
+				19D671021E792AB800945EF8 /* NSMutableAttributedString+FrameRef.m in Sources */,
 				194E7E9A1E768AE40091F2CC /* ViewController.m in Sources */,
 				194E7EC71E7691660091F2CC /* TextSimpleView.m in Sources */,
-				199D10AB1E779A5A001FA9D7 /* UIImage+AttGif.m in Sources */,
-				199D10A31E778C31001FA9D7 /* NSMutableAttributedString+ExpressionImage.m in Sources */,
+				199D10AB1E779A5A001FA9D7 /* UIImageView+AttGif.m in Sources */,
+				19D671141E7971A200945EF8 /* NSMutableAttributedString+Hyperlink.m in Sources */,
 				194E7E971E768AE40091F2CC /* AppDelegate.m in Sources */,
+				19D671111E79716300945EF8 /* NSMutableAttributedString+ExpressionImage.m in Sources */,
+				19D671051E794F6600945EF8 /* UIView+frameAdjust.m in Sources */,
 				194E7E941E768AE40091F2CC /* main.m in Sources */,
+				19D670FF1E79248300945EF8 /* TextExpressionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
