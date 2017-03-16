@@ -22,7 +22,7 @@ typedef NS_ENUM(NSInteger ,LWAttributedImageType) {
 
 @property (nonatomic,assign)CGSize imageSize;
 
-@property (nonatomic,assign)NSRange imageRange;
+@property (nonatomic, assign) NSInteger position;
 
 @property (nonatomic,assign)LWAttributedImageType imageType;
 

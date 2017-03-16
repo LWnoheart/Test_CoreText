@@ -27,6 +27,7 @@
 		19D6710E1E796F8C00945EF8 /* haqian.gif in Resources */ = {isa = PBXBuildFile; fileRef = 19D6710A1E796F8C00945EF8 /* haqian.gif */; };
 		19D671111E79716300945EF8 /* NSMutableAttributedString+ExpressionImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D6710F1E79716300945EF8 /* NSMutableAttributedString+ExpressionImage.m */; };
 		19D671141E7971A200945EF8 /* NSMutableAttributedString+Hyperlink.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D671131E7971A200945EF8 /* NSMutableAttributedString+Hyperlink.m */; };
+		19F0D5B81E7A2A3900746165 /* LWAttributedHyperlink.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F0D5B71E7A2A3900746165 /* LWAttributedHyperlink.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,8 @@
 		19D671101E79716300945EF8 /* NSMutableAttributedString+ExpressionImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+ExpressionImage.h"; sourceTree = "<group>"; };
 		19D671121E7971A200945EF8 /* NSMutableAttributedString+Hyperlink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Hyperlink.h"; sourceTree = "<group>"; };
 		19D671131E7971A200945EF8 /* NSMutableAttributedString+Hyperlink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Hyperlink.m"; sourceTree = "<group>"; };
+		19F0D5B61E7A2A3900746165 /* LWAttributedHyperlink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAttributedHyperlink.h; sourceTree = "<group>"; };
+		19F0D5B71E7A2A3900746165 /* LWAttributedHyperlink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAttributedHyperlink.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +189,8 @@
 			children = (
 				199D10A51E778E2E001FA9D7 /* LWAttributedImage.h */,
 				199D10A61E778E2E001FA9D7 /* LWAttributedImage.m */,
+				19F0D5B61E7A2A3900746165 /* LWAttributedHyperlink.h */,
+				19F0D5B71E7A2A3900746165 /* LWAttributedHyperlink.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -362,6 +367,7 @@
 				199D10AB1E779A5A001FA9D7 /* UIImageView+AttGif.m in Sources */,
 				19D671141E7971A200945EF8 /* NSMutableAttributedString+Hyperlink.m in Sources */,
 				194E7E971E768AE40091F2CC /* AppDelegate.m in Sources */,
+				19F0D5B81E7A2A3900746165 /* LWAttributedHyperlink.m in Sources */,
 				19D671111E79716300945EF8 /* NSMutableAttributedString+ExpressionImage.m in Sources */,
 				19D671051E794F6600945EF8 /* UIView+frameAdjust.m in Sources */,
 				194E7E941E768AE40091F2CC /* main.m in Sources */,

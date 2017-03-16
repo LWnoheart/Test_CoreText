@@ -34,8 +34,6 @@ static NSString *kImagePattern = @"\\[.*?\\]";
         NSString *imageName = [[resultString substringFromIndex:2] substringToIndex:resultString.length - 3];
         // 3.1.2设置图片名字
         imageData.imageString = imageName;
-        // 8.设置图片在属性字符串中的位置
-        imageData.imageRange = result.range;
         
         // 3.2添加进入数组
         [arrM addObject:imageData];
@@ -80,8 +78,8 @@ static NSString *kImagePattern = @"\\[.*?\\]";
         NSString *imageStr = [NSString stringWithFormat:@"[/%@]", imageData.imageString];
         NSRange range = [self.string rangeOfString:imageStr];
         
-//        // 8.设置图片在属性字符串中的位置
-//        imageData.imageRange = NSMakeRange(range.location, 0);
+        // 8.设置图片在属性字符串中的位置
+        imageData.position = range.location;
         
         // 9.占位图片属性字符串替换图片名
         [self replaceCharactersInRange:range withAttributedString:attSring];

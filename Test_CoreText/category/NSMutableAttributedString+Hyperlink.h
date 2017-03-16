@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "LWAttributedHyperlink.h"
+@import UIKit;
 @interface NSMutableAttributedString (Hyperlink)
+
+
+-(NSArray<LWAttributedHyperlink *> *)getHyperlinkWithColor:(UIColor *)color font:(UIFont *)font;
 
 @end

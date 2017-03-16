@@ -48,4 +48,36 @@
  */
 CGRect CTRunGetTypographicBoundsForImageRect(CTRunRef runRef, CTLineRef lineRef, CGPoint lineOrigin, LWAttributedImage *imageData);
 
+
+/*!
+ *@function CTLineGetTypographicBoundsAsRect
+ *@abstract 获得CTLine的排版位置frame
+ *
+ *@param lineRef CTLine
+ *@param lineOrigin CTLine所在的origin，CTFrameGetLineOrigins
+ */
+CGRect CTLineGetTypographicBoundsAsRect(CTLineRef lineRef, CGPoint lineOrigin);
+
+
+
+
+/*!
+ *@function CTLineContainsCharactersFromStringRange
+ *@abstract 判断range是否在当前行
+ *
+ *@param lineRef 判断是否在的行CTLine
+ *@param range 整体渲染string需要判断的位置NSRange
+ */
+BOOL CTLineContainsCharactersFromStringRange(CTLineRef lineRef, NSRange range);
+
+
+/*!
+ *@function CTRunGetTypographicBoundsForLinkRect
+ *@abstract 获得渲染string所在行的位置frame
+ *
+ *@param lineRef 渲染string所在行CTLine
+ *@param range 整体渲染string的range
+ *@param lineOrigin 渲染string所在行CTLine的origin，CTFrameGetLineOrigins
+ */
+CGRect CTRunGetTypographicBoundsForLinkRect(CTLineRef lineRef, NSRange range, CGPoint lineOrigin);
 @end
